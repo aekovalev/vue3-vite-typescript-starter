@@ -1,8 +1,22 @@
 {
   "name": "vue3-vite-typescript-starter",
-  "private": true,
-  "version": "0.1.0",
+  "description": "Simple fast starter for developing with Vue 3 and Typescript in Vite. (With Lint & Prettier tools)",
+  "private": false,
+  "version": "0.2.0",
   "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aekovalev/vue3-vite-typescript-starter.git" 
+  },
+  "keywords": [
+    "vue", "vue3", "typescript", "ts", "vite"
+  ],
+  "author": "Alexey Kovalev",
+  "bugs": {
+    "url": "https://github.com/aekovalev/vue3-vite-typescript-starter/issues"
+  },
+  "homepage": "https://github.com/aekovalev/vue3-vite-typescript-starter#readme",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
