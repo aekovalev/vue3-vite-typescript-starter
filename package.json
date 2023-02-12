@@ -30,12 +30,6 @@
         "lint:markup": "vue-tsc --noEmit",
         "format": "prettier -w -u ."
     },
-    "pre-commit": [
-        "pnpm lint:markup",
-        "pnpm lint:scripts",
-        "pnpm lint:styles",
-        "pnpm format"
-    ],
     "browserslist": [
         "> 1%",
         "last 2 versions",
@@ -57,7 +51,6 @@
         "eslint-plugin-unicorn": "^45.0.2",
         "eslint-plugin-vue": "^9.9.0",
         "postcss-html": "^1.5.0",
-        "pre-commit": "^1.2.2",
         "prettier": "^2.8.4",
         "sass": "^1.58.0",
         "stylelint": "^15.1.0",
