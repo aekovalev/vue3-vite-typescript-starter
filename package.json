@@ -31,10 +31,10 @@
         "format": "prettier -w -u ."
     },
     "pre-commit": [
-        "lint:markup",
-        "lint:scripts",
-        "lint:styles",
-        "format"
+        "pnpm lint:markup",
+        "pnpm lint:scripts",
+        "pnpm lint:styles",
+        "pnpm format"
     ],
     "browserslist": [
         "> 1%",
