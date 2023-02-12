@@ -2,7 +2,7 @@
     "name": "vue3-vite-typescript-starter",
     "description": "Simple fast starter for developing with Vue 3 and Typescript in Vite. (With Lint & Prettier tools)",
     "private": false,
-    "version": "0.2.0",
+    "version": "0.3.0",
     "type": "module",
     "license": "MIT",
     "repository": {
@@ -30,16 +30,12 @@
         "lint:markup": "vue-tsc --noEmit",
         "format": "prettier -w -u ."
     },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
-    },
-    "lint-staged": {
-        "*.{ts,vue}": "eslint --fix",
-        "*.{css,scss,vue}": "stylelint --fix",
-        "*": "prettier -w -u"
-    },
+    "pre-commit": [
+        "lint:markup",
+        "lint:scripts",
+        "lint:styles",
+        "format"
+    ],
     "browserslist": [
         "> 1%",
         "last 2 versions",
@@ -60,9 +56,8 @@
         "eslint-plugin-prettier": "^4.2.1",
         "eslint-plugin-unicorn": "^45.0.2",
         "eslint-plugin-vue": "^9.9.0",
-        "husky": "^8.0.3",
-        "lint-staged": "^13.1.1",
         "postcss-html": "^1.5.0",
+        "pre-commit": "^1.2.2",
         "prettier": "^2.8.4",
         "sass": "^1.58.0",
         "stylelint": "^15.1.0",

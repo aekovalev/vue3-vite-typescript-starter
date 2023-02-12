@@ -5,5 +5,8 @@
         "stylelint-config-recommended-vue",
         "stylelint-config-recommended-scss",
         "stylelint-config-recommended-vue/scss"
-    ]
+    ],
+    "rules": {
+        "selector-class-pattern": "([a-z0-9]{2,})([-_a-z0-9]*)"
+    }
 }
