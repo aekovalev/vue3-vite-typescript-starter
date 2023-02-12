@@ -2,7 +2,7 @@
 
 _Simple fast starter for developing with Vue 3 and Typescript in Vite. (With Lint & Prettier tools)_
 
-💻 Vue 3 | Vite | Typescript | ESLint | Prettier | Stylelint
+💻 Vue 3 | Vite | Typescript | Eslint | Prettier | Stylelint
 
 Screen - comming soon...
 
@@ -68,7 +68,7 @@ The issue tracker is the preferred channel for bug reports, features requests an
 
 Originally written & currently maintained by [@aekovalev][git] © 2023
 
-> </💻> with ❤ by **[git]**. Have Fun 🍻
+> </💻> with ❤ by **[@aekovalev][git]**. Have Fun 🍻
 
 ---
 
