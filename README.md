@@ -13,8 +13,8 @@ Screen - comming soon...
 -   Vue 3
 -   Vite
 -   Typescript
--   ESLint + Prettier + Stylelint
--   SCSS/SASS
+-   Eslint + Prettier + Stylelint
+-   Scss/Sass
 -   More soon…
 
 ---
@@ -33,8 +33,8 @@ pnpm i
 # Compiles & hot-reloads for development
 pnpm dev
 
-# Or Vite preview
-pnpm serve
+# Vite preview
+pnpm preview
 
 # Build & minifies for production
 pnpm build
@@ -66,8 +66,10 @@ The issue tracker is the preferred channel for bug reports, features requests an
 
 ## 🍭 Credits
 
-Originally written & currently maintained by [@aekovalev] © 2023
+Originally written & currently maintained by [@aekovalev][git] © 2023
 
-> </💻> with ❤ by **[@aekovalev]**. Have Fun 🍻
+> </💻> with ❤ by **[git]**. Have Fun 🍻
 
 ---
+
+[git]: https://github.com/aekovalev
